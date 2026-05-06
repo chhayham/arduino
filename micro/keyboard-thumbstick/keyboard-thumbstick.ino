@@ -6,7 +6,7 @@ const int PIN_Y = A1;
 const int PIN_B = 14; // sel pin
 
 // Thresholds for directional movement
-const int threshold = 180;
+const int threshold = 180; // Adjust this value based on your joystick's sensitivity
 const int center = 512;
 
 
