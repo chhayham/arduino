@@ -12,7 +12,7 @@ const int center = 512;
 
 void setup() {
   pinMode(PIN_B, INPUT_PULLUP);
-  Serial.begin(9600);
+  Serial.begin(115200);
   Keyboard.begin();
 }
 
