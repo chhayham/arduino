@@ -6,7 +6,7 @@ const int PIN_Y = A1;
 const int PIN_B = 14; // sel pin
 
 // Thresholds for directional movement
-const int threshold = 300;
+const int threshold = 200;
 const int center = 512;
 
 
