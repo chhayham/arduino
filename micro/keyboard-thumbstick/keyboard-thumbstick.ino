@@ -6,13 +6,13 @@ const int PIN_Y = A1;
 const int PIN_B = 14; // sel pin
 
 // Thresholds for directional movement
-const int threshold = 180; // Adjust this value based on your joystick's sensitivity
+const int threshold = 130; // Adjust this value based on your joystick's sensitivity
 const int center = 512;
 
 
 void setup() {
   pinMode(PIN_B, INPUT_PULLUP);
-  Serial.begin(115200);
+  Serial.begin(2000000);  //115200
   Keyboard.begin();
 }
 
